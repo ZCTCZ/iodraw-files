@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9acf98rInVYUEif1Qx-m-1" value="Acceptor(连接器)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="197" width="233" height="136" as="geometry">
+          <mxGeometry x="155" y="192" width="233" height="136" as="geometry">
             <mxRectangle x="254" y="192" width="142" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,7 +13,7 @@
           <mxGeometry y="50" width="233" height="86" as="geometry" />
         </mxCell>
         <mxCell id="9acf98rInVYUEif1Qx-m-8" value="Channel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="571" y="180" width="269" height="177" as="geometry">
+          <mxGeometry x="516" y="175" width="269" height="177" as="geometry">
             <mxRectangle x="254" y="192" width="142" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>

@@ -13,18 +13,12 @@
           <mxGeometry y="50" width="233" height="86" as="geometry" />
         </mxCell>
         <mxCell id="9acf98rInVYUEif1Qx-m-8" value="Channel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="516" y="175" width="269" height="177" as="geometry">
+          <mxGeometry x="464" y="171.5" width="269" height="177" as="geometry">
             <mxRectangle x="254" y="192" width="142" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9acf98rInVYUEif1Qx-m-9" value="EventLoop* m_ploop(非持有)&lt;div&gt;Shared_ptr&amp;lt;Socket&amp;gt; m_psocket(持有)&lt;/div&gt;&lt;div&gt;uint32_t m_evevts&lt;/div&gt;&lt;div&gt;uint32_t m_happenevents&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;function m_readeventcb(回调)&lt;/div&gt;&lt;div&gt;function m_writeeventcb(回调)&lt;/div&gt;&lt;div&gt;function m_closeconnectioncb(回调)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9acf98rInVYUEif1Qx-m-8">
+        <mxCell id="9acf98rInVYUEif1Qx-m-9" value="EventLoop* m_ploop(非持有)&lt;div&gt;Shared_ptr&amp;lt;Socket&amp;gt; m_psocket(持有)&lt;/div&gt;&lt;div&gt;uint32_t m_evevts&lt;/div&gt;&lt;div&gt;uint32_t m_happenevents&lt;/div&gt;&lt;div&gt;bool m_isinepoll&lt;/div&gt;&lt;div&gt;function m_readeventcb(回调)&lt;/div&gt;&lt;div&gt;function m_writeeventcb(回调)&lt;/div&gt;&lt;div&gt;function m_closeconnectioncb(回调)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9acf98rInVYUEif1Qx-m-8">
           <mxGeometry y="50" width="269" height="127" as="geometry" />
-        </mxCell>
-        <mxCell id="9acf98rInVYUEif1Qx-m-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.94;exitY=0.547;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.006;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9acf98rInVYUEif1Qx-m-2" target="9acf98rInVYUEif1Qx-m-9">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="521" y="152" as="sourcePoint" />
-            <mxPoint x="571" y="102" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

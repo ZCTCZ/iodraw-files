@@ -12,6 +12,14 @@
         <mxCell id="9acf98rInVYUEif1Qx-m-2" value="EventLoop* m_ploop(非持有)&lt;div&gt;Shared_ptr&amp;lt;Socket&amp;gt; m_psocket(持有)&lt;/div&gt;&lt;div&gt;Shared_ptr&amp;lt;Channel&amp;gt; m_pchannel(持有)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;function m_onconnectcb(回调)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9acf98rInVYUEif1Qx-m-1">
           <mxGeometry y="50" width="233" height="86" as="geometry" />
         </mxCell>
+        <mxCell id="9acf98rInVYUEif1Qx-m-8" value="Acceptor(连接器)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="371" width="233" height="136" as="geometry">
+            <mxRectangle x="254" y="192" width="142" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9acf98rInVYUEif1Qx-m-9" value="EventLoop* m_ploop(非持有)&lt;div&gt;Shared_ptr&amp;lt;Socket&amp;gt; m_psocket(持有)&lt;/div&gt;&lt;div&gt;Shared_ptr&amp;lt;Channel&amp;gt; m_pchannel(持有)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;function m_onconnectcb(回调)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9acf98rInVYUEif1Qx-m-8">
+          <mxGeometry y="50" width="233" height="86" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
